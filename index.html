@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TestRun</title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body id="b">
+	<h1 id="h" style="align-content: center;">Header</h1>
+</body>
+
+<script type="text/javascript">
+	animate();
+	function animate() {
+		$('h').toggle(100);
+		animate();
+	}
+</script>
+</html>
